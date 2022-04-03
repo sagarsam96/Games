@@ -1,0 +1,44 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    padding: 10%;
+}
+
+.games{
+    background-color: bisque;
+    padding: 5%;
+    text-align: center;
+    margin: 1%;
+    width: 100%;
+}
+
+#games{
+    margin: 2%;
+}
+
+#nGInput, #cTInput, #rPSInput{
+    padding: 2%;
+    margin: 1%;
+}
+
+.results{
+    background-color: aliceblue;
+    margin-top: 10%;
+    padding: 1%;
+    font-size: medium;
+}
+footer{
+    background-color: yellow;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width:1030px){
+    .games{
+        width: 70%;
+    }
+}

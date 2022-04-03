@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div><b>Games</b></div>
+
+    <div class="games">
+        <select name="games" id="games">
+            <option value="null"></option>
+            <option value="1">Number Guessing Game</option>
+            <option value="2">Coin Toss</option>
+            <option value="3">Rock Paper Scissor</option>
+        </select>
+
+        <div id="selectedOption" style="display: none;">hello</div>
+        
+        <div id="inputs" style="display: none;">
+           
+            <div id="nGInput" style="display: none;">
+                <input type="number" id="input">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+            
+            <div id="cTInput" style="display: none;">
+                <button id="head">Head</button>
+                <button id="tail">Tail</button>
+            </div>
+
+            <div id="rPSInput" style="display: none;" >
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissor">Scissor</button>
+        </div>
+        
+
+        </div>
+       <div class="results">
+        <span id="result">Result:</span> <br> <hr>
+       </div>
+        
+    </div>
+    <footer>Collection: Adavance by <a href="https://github.com/sagarsam96" target="_blank">Sagar Sameer</a></footer>
+     <script src="index.js"></script>
+</body>
+</html>
